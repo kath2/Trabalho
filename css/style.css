@@ -1,0 +1,375 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.fundo{
+    background: linear-gradient(180deg, #EE8C61 31.25%, #F1B34B 70.54%, #F3CDA6 92.87%);
+    width: 136.6rem;
+    height: 72rem;
+    max-width: 100%;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 8.6rem;
+    gap: 2.9rem;
+}
+a{
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: black;
+    font-family: "Montserrat",sans-serif;
+}
+.titulo{
+    font-weight: 40rem;
+    font-size: 14.5rem;
+    letter-spacing: 1.6rem;
+    margin-top: 25rem;
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    margin-left: 8.6rem;
+}
+.titulo::after{
+    content: "";
+    width: 54.2rem;
+    height: 0.8rem;
+    background-color:black;
+    position: absolute;
+    left: 0;
+    bottom: 23.5rem;
+}
+.titulo::before{
+    content: "Katheriny Tavares - 2022";
+    width: 28rem;
+    height: 2.4rem;
+    font-size: 2rem;
+    letter-spacing: 0;
+    position: absolute;
+    bottom: 15rem;
+    right: 6rem;
+}
+.hero{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    margin-right: 6rem;
+}
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 8.6rem;
+}
+body{
+    background-color: #F3CCA4;
+}
+
+article, .cabeçalho, .rodape{
+    font-family: "Poppins", sans-serif;
+}
+.segunda{
+    width: 100rem;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8.6rem;
+}
+.cabeçalho{
+    content: "";
+    width: 119.4rem;
+    height: 0.2rem;
+    background-color:#877D7D;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17.5rem;
+}
+.rodape{
+    content: "";
+    width: 119.4rem;
+    height: 0.2rem;
+    background-color: #877D7D;
+    display: flex;
+    justify-content: space-between;
+}
+.intro{
+    width: 119.4rem;
+    margin: auto;
+    height: 80rem;
+}
+.fotinha{
+    width: 32rem;
+    margin-top: 5.9rem;
+    margin-bottom: 5.7rem;
+}
+h3{
+    font-size: 4rem;
+    color: #E88B1F;
+    font-weight: 400;
+}
+h1{
+    font-size: 6.4rem;
+    color: #E88B1F;
+    font-weight: 700;
+}
+.sobre,.cont{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: .12rem;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.6rem;
+    margin-top: 5.9rem;
+}
+.parte3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 32.6rem;
+}
+.cursos{
+    width: 119.4rem;
+    margin: auto;
+    height: 80rem;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 32.6rem;
+    margin-left: 8.6rem;
+}
+.parte4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 32.6rem;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 32.6rem;
+    margin-bottom: 39rem;
+    margin-left: 12.3rem;
+}
+.parte5{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 32.6rem;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 32.6rem;
+    margin-bottom: 20rem;
+    margin-left: 8.6rem;
+}
+.tudo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 9.3rem;
+    height: 32.6rem;
+}
+.titulo1,.titulo2,.titulo3{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4rem;
+    color: #E88B1F;
+}
+li{
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+}
+.card4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 32.6rem;
+    margin-left: 8.6rem;
+}
+.parte6{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 32.6rem;
+}
+.card5{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 32.6rem;
+    margin-left: 12rem;
+    margin-top: 6rem;
+}
+.parte7{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 32.6rem;
+}
+.card6{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 32.6rem;
+    margin-left: 8.6rem;
+}
+.terceira{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+    margin-bottom: 6.8rem;
+}
+.numeros{
+    width: 119.4rem;
+    margin: auto;
+    height: 80rem;
+    display: flex;
+    justify-content: space-between;
+}
+.first,.second,.third,.fourth{
+    font-size: 12.8rem;
+    color:#E88B1F;
+    margin-left: 10rem;
+}
+.seções{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25rem;
+}
+.seções2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 8rem;
+}
+.identidade{
+    width: 119.4rem;
+    margin: auto;
+    height: 80rem;
+    background-color: #E88B1F;
+    text-align: center;
+}
+.dois{
+    font-size: 20rem;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10rem;
+    color: white;
+}
+.um{
+    font-size: 6.4rem;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.mcdonalds{
+    margin-top: 20rem;
+}
+.right{
+    position: absolute;
+    width: 52rem;
+    right: 9.6rem;
+    top: 11.5rem;
+}
+.cartão{
+    width: 119.4rem;
+    margin: auto;
+    height: 80rem;
+    background-color: #E88B1F;
+    text-align: center;
+}
+.três{
+    font-size: 20rem;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10rem;
+    color: white;
+}
+.um{
+    font-size: 6.4rem;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.starbucks{
+    margin-top: 20rem;
+}
+.editorial{
+    width: 119.4rem;
+    margin: auto;
+    height: 80rem;
+    background-color: #E88B1F;
+    text-align: center;
+}
+.quatro{
+    font-size: 20rem;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10rem;
+    color: white;
+}
+.um{
+    font-size: 6.4rem;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.starbucks{
+    margin-top: 20rem;
+}
+.publicidade{
+    width: 119.4rem;
+    margin: auto;
+    height: 80rem;
+    background-color: #E88B1F;
+    text-align: center;
+}
+.cinco{
+    font-size: 20rem;
+    font-family: "Poppins", sans-serif;
+    margin-top: 10rem;
+    color: white;
+}
+.um{
+    font-size: 6.4rem;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.starbucks{
+    margin-top: 20rem;
+}
+img{
+    margin-top: 12rem;
+}
+.cont{
+    font-size: 5rem;
+    font-family: "Poppins",sans-serif;
+    color: #E88B1F;
+    text-align: center;
+    margin-top: 15rem;
+}
+.email, .insta,.phone{
+    background-color: #E88B1F;
+    width: 32rem;
+    height: 3.5rem;
+    border-radius: 0.8rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4rem;
+}
+.final{
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 25rem;
+    padding: 1rem;
+}
+.contato{
+    width: 119.4rem;
+    margin: auto;
+    height: 80rem;
+    margin-top: 1rem;
+}
